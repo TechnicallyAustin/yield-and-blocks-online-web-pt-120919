@@ -8,8 +8,8 @@ end
 end
 
 # call your method here!
-hello_t(["Tim","Tom","Jim"]) { |name|
+hello_t(["Tim","Tom","Jim"]) do |name|
 if name.satrt_with?("T")
   puts "Hi, #{name}"
 end
-}
+end
