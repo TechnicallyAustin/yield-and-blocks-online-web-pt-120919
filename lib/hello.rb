@@ -10,5 +10,6 @@ end
 # call your method here!
 hello_t(["Tim","Tom","Jim"]) { |name|
 if name.satrt_with?("T")
-  puts "Hi, #{name}"}
+  puts "Hi, #{name}"
 end
+}
